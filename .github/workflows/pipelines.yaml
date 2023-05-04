@@ -22,6 +22,14 @@ jobs:
 
       - name: Checkout Repository
         uses: actions/checkout@v3
+      
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+        with:
+         repository: KarthikeyanSriramalu/TEST
+         path: my-tools
+         ref: master
+         token: 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
 
       - name: Setup JDK 1.8
         uses: actions/setup-java@v2
