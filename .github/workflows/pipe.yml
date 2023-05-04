@@ -1,0 +1,16 @@
+name: pipe2
+on: 
+  workflow_dispatch:
+jobs:
+  build:
+    name: deploy to staging
+    runs-on: ubuntu-latest
+    steps:
+    - name: test
+      uses: actions/checkout@v3
+    - name: teat
+      uses: actions/setup-java@v3
+    - name: DuRoom JavaScript Build
+      uses: DuRoom/action-build@2.1.0
+    - name: deploydone
+      run: echo "done"
