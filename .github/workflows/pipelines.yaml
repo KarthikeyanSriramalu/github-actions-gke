@@ -8,7 +8,7 @@ on:
 env:
   PROJECT_ID: ${{secrets.GKE_KS_PROJECTID}}
   GKE_CLUSTER: gke-github-actions
-  GKE_ZONE: us-central1-c
+  GKE_ZONE: us-east4
   DEPLOYMENT_NAME: github-actions-gke
   IMAGE: github-actions-gke-image
   TAG: 1.0.0
