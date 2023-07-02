@@ -14,5 +14,5 @@ spec:
     spec:
       containers:
         - name: app
-          image: gcr.io/gke/test:1.1.0
+          image: gcr.io/github-actions-gke-385618/test:1.1.0
           imagePullPolicy: Always
